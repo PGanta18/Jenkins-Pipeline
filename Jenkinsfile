@@ -8,6 +8,7 @@ pipeline{
               export x=one
               echo "value of x: ${x}"    
            '''
+              
           }
         }
         
