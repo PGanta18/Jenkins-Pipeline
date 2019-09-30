@@ -13,5 +13,17 @@ pipeline{
           }
         }
         
+        stage('Build 1') {
+          steps{
+           sh 'echo "this is my second groovy script"'
+           sh '''
+              export x=two
+              echo "value of x: ${x}"
+           
+           '''
+           
+          }
+        }
+        
     }
 }
