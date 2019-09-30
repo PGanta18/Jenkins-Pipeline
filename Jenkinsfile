@@ -9,7 +9,6 @@ pipeline{
               echo "value of x: ${x}"
            
            '''
-           
           }
         }
         
