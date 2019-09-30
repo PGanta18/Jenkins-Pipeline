@@ -18,7 +18,6 @@ pipeline{
            sh '''
               export x=two
               echo "value of x: ${x}"
-           
            '''
            
           }
